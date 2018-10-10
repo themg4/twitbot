@@ -13,6 +13,7 @@ const SendMessage = user => {
 
   const obj = {
     screen_name,
+    console.log("Generating message",'${screen_name}');
     text: GenerateMessage(name)
   };
   // the follow stream track if I follow author person too.
