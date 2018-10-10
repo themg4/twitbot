@@ -5,7 +5,7 @@ const timeout = 1000 * 60 * 5; // timeout to send the message 5 min
 const AutoDM = () => {
   const stream = T.stream("user");
   console.log("Start Sending Auto Direct Message 🚀🚀🚀");
-  stream.on("follow", SendMessage);
+  stream.on();
 };
 
 const SendMessage = user => {
