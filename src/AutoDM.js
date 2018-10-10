@@ -30,18 +30,8 @@ const SendMessage = user => {
   }
 };
 const GenerateMessage = name => {
-  const days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-  ];
-  const d = new Date();
-  const dayName = days[d.getDay()];
-  return `Hi ${name} Thanks for .... \n Happy ${dayName} 😊😊 `; // your message
+
+  return `Hi ${name}, Thanks for the follow!  I spend most of my days studying and trading the stock market.  After two years I decided to share the knowledge through my youTube channel (https://www.youtube.com/c/marketmoveswithmatt).  This channel is the number one place to learn about everything investing: from FANG stocks, penny stocks, cyrpto, value investing, and more.  Of course let me know if you need anything or want any special videos made.  Cheers- Matt `; // your message
   // My message   return `Hi ${name} Thanks for being a part of my social media network. I'am the @PicsrushE founder,A new Online Image Editor completely with web technologies,I'm also a reactjs developer and medium blogger.\n Happy to discuss anytime 😊  \n Happy ${dayName} 😊😊 `;
 };
 
